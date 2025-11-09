@@ -27,3 +27,8 @@ export interface PropertyProps {
   images?: string[];     
 }
 
+export interface CardProps {
+  title: string;
+  description: string;
+  imageUrl: string;
+}
