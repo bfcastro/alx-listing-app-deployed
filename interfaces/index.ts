@@ -1,3 +1,4 @@
+
 export interface AddressProps {
   state: string;
   city: string;
@@ -17,14 +18,11 @@ export interface PropertyProps {
   price: number;
   rating: number;
   discount?: number;
-  address: {
-    city: string;
-    country: string;
-  };
+  address: AddressProps; //
   category: string[];
   description?: string;
-  amenities?: string[];   
-  images?: string[];     
+  amenities?: string[];
+  images?: string[];
 }
 
 export interface CardProps {

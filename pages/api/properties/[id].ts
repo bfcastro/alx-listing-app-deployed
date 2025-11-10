@@ -7,7 +7,7 @@ const mockProperties: PropertyProps[] = [
     name: "Luxury Beachfront Villa",
     image: "/images/villa.jpg",
     rating: 4.8,
-    address: { city: "Accra", country: "Ghana" },
+    address: { city: "Accra", country: "Ghana", state: "Greater Accra" },
     category: ["Villa", "Luxury", "Oceanfront"],
     price: 250,
     discount: 15,
@@ -19,7 +19,7 @@ const mockProperties: PropertyProps[] = [
     name: "Modern City Apartment",
     image: "/images/apartment.jpg",
     rating: 4.6,
-    address: { city: "Kumasi", country: "Ghana" },
+    address: { city: "Kumasi", country: "Ghana", state: "Ashanti" },
     category: ["Apartment", "Modern", "Urban"],
     price: 180,
     description:
